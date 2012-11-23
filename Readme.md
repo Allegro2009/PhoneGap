@@ -11,7 +11,7 @@ This isn't a PhoneGap tutorial so we assume that you have a PhoneGap project
 (or projects) already set up and working.
 
 ### Android
-1. Download our [Android SDK](http://tapfortap.com/developers/sdk/TapForTap-Android.zip) and find
+1. Download our [Android SDK](http://tapfortap.com/sdk/TapForTap-Android.zip) and find
 the file `TapForTap.jar` included therein. You'll need this file in the next
 step.
 
@@ -34,7 +34,7 @@ That's it! Unless you're integrating Tap for Tap into an iOS app as well you
 can skip down to **Usage**.
 
 ### iOS
-1. Download our [iOS SDK](http://tapfortap.com/developers/sdk/TapForTap-iOS.zip) and find the
+1. Download our [iOS SDK](http://tapfortap.com/sdk/TapForTap-iOS.zip) and find the
 folder `TapForTap` included therein. Add it to your project by following
 [Step 1 and 2 of the iOS instructions](http://tapfortap.com/developer#documentation).
 
