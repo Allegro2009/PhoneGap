@@ -19,7 +19,7 @@ step.
 project's `libs` folder, alongside `cordova-2.x.x.jar`.
 Put `TapForTap.jar` from step 1 to your `libs` folder as well.
 
-3. Now add Tap for Tap to your project by following [Steps 1 - 3 of our SDK instructions](http://tapfortap.com/developer#documentation).
+3. Now add Tap for Tap to your project by following [Steps 1 and 2 of our SDK instructions](http://tapfortap.com/developer#documentation).
 
 4. Now go ahead and put `tapfortap.js` in `assets/www` alongside
 `cordova-2.x.x.js`.
@@ -36,7 +36,7 @@ can skip down to **Usage**.
 ### iOS
 1. [Download our iOS SDK](http://tapfortap.com/developers/sdk) and find the
 folder `TapForTap` included therein. Add it to your project by following
-[Step 1 of the iOS instructions](http://tapfortap.com/developer#documentation).
+[Step 1 and 2 of the iOS instructions](http://tapfortap.com/developer#documentation).
 
 2. Add `TapForTapPhoneGapPlugin.h` and `TapForTapPhoneGapPlugin.m` to your
 project in the `Plugins` folder provided by PhoneGap.
