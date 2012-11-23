@@ -11,12 +11,12 @@ This isn't a PhoneGap tutorial so we assume that you have a PhoneGap project
 (or projects) already set up and working.
 
 ### Android
-1. [Download our Android SDK](http://tapfortap.com/developers/sdk) and find
+1. Download our [Android SDK](http://tapfortap.com/developers/sdk/TapForTap-Android.zip) and find
 the file `TapForTap.jar` included therein. You'll need this file in the next
 step.
 
-2. Peek inside the `Android` folder and put `TapForTapPhoneGapPlugin.jar` in your
-project's `libs` folder, alongside `cordova-2.x.x.jar`.
+2. Download the [PhoneGap SDK](https://github.com/tapfortap/PhoneGap/downloads) and peek inside the `Android` folder and put 
+`TapForTapPhoneGapPlugin.jar` in your project's `libs` folder, alongside `cordova-2.x.x.jar`.
 Put `TapForTap.jar` from step 1 to your `libs` folder as well.
 
 3. Now add Tap for Tap to your project by following [Steps 1 and 2 of our SDK instructions](http://tapfortap.com/developer#documentation).
@@ -34,11 +34,12 @@ That's it! Unless you're integrating Tap for Tap into an iOS app as well you
 can skip down to **Usage**.
 
 ### iOS
-1. [Download our iOS SDK](http://tapfortap.com/developers/sdk) and find the
+1. Download our [iOS SDK](http://tapfortap.com/developers/sdk/TapForTap-iOS.zip) and find the
 folder `TapForTap` included therein. Add it to your project by following
 [Step 1 and 2 of the iOS instructions](http://tapfortap.com/developer#documentation).
 
-2. Add `TapForTapPhoneGapPlugin.h` and `TapForTapPhoneGapPlugin.m` to your
+2. Download the [PhoneGap SDK](https://github.com/tapfortap/PhoneGap/downloads) and look inside the iOS foler
+and add `TapForTapPhoneGapPlugin.h` and `TapForTapPhoneGapPlugin.m` to your
 project in the `Plugins` folder provided by PhoneGap.
 
 3. Put `tapfortap.js` in your `www` folder, alongside `phonegap-2.x.x.js`
