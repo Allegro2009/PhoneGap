@@ -1,33 +1,44 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
-
     <title>Phonegap by tapfortap</title>
-  </head>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
+  </head>
   <body>
 
-    <header>
-      <div class="container">
+      <header>
         <h1>Phonegap</h1>
-        <h2>The Tap for Tap PhoneGap plugin</h2>
+        <p>The Tap for Tap PhoneGap Plugin</p>
+      </header>
 
-        <section id="downloads">
-          <a href="https://github.com/tapfortap/PhoneGap/zipball/master" class="btn">Download as .zip</a>
-          <a href="https://github.com/tapfortap/PhoneGap/tarball/master" class="btn">Download as .tar.gz</a>
-          <a href="https://github.com/tapfortap/PhoneGap" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
-      </div>
-    </header>
+      <div id="banner">
+        <span id="logo"></span>
 
-    <div class="container">
-      <section id="main_content">
+        <a href="https://github.com/tapfortap/PhoneGap" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/tapfortap/PhoneGap/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/tapfortap/PhoneGap/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
         <h1>Tap for Tap PhoneGap Plugins</h1>
 
 <p>Want to use Tap for Tap with PhoneGap? We got you covered on Android and iOS.</p>
@@ -44,13 +55,13 @@ This isn't a PhoneGap tutorial so we assume that you have a PhoneGap project
 <h3>Android</h3>
 
 <ol>
-<li><p><a href="http://tapfortap.com/developers/sdk">Download our Android SDK</a> and find
+<li><p>Download our <a href="http://tapfortap.com/sdk/TapForTap-Android.zip">Android SDK</a> and find
 the file <code>TapForTap.jar</code> included therein. You'll need this file in the next
 step.</p></li>
-<li><p>Peek inside the <code>Android</code> folder and put <code>TapForTapPhoneGapPlugin.jar</code> in your
-project's <code>libs</code> folder, alongside <code>cordova-2.x.x.jar</code>.
+<li><p>Download the <a href="https://github.com/tapfortap/PhoneGap/downloads">PhoneGap SDK</a> and peek inside the <code>Android</code> folder and put 
+<code>TapForTapPhoneGapPlugin.jar</code> in your project's <code>libs</code> folder, alongside <code>cordova-2.x.x.jar</code>.
 Put <code>TapForTap.jar</code> from step 1 to your <code>libs</code> folder as well.</p></li>
-<li><p>Now add Tap for Tap to your project by following <a href="http://tapfortap.com/developer#documentation">Steps 1 - 3 of our SDK instructions</a>.</p></li>
+<li><p>Now add Tap for Tap to your project by following <a href="http://tapfortap.com/developer#documentation">Steps 1 and 2 of our SDK instructions</a>.</p></li>
 <li><p>Now go ahead and put <code>tapfortap.js</code> in <code>assets/www</code> alongside
 <code>cordova-2.x.x.js</code>.</p></li>
 <li><p>Open <code>res/xml/plugins.xml</code> and add this line:</p></li>
@@ -63,10 +74,11 @@ can skip down to <strong>Usage</strong>.</p>
 <h3>iOS</h3>
 
 <ol>
-<li><p><a href="http://tapfortap.com/developers/sdk">Download our iOS SDK</a> and find the
+<li><p>Download our <a href="http://tapfortap.com/sdk/TapForTap-iOS.zip">iOS SDK</a> and find the
 folder <code>TapForTap</code> included therein. Add it to your project by following
-<a href="http://tapfortap.com/developer#documentation">Step 1 of the iOS instructions</a>.</p></li>
-<li><p>Add <code>TapForTapPhoneGapPlugin.h</code> and <code>TapForTapPhoneGapPlugin.m</code> to your
+<a href="http://tapfortap.com/developer#documentation">Step 1 and 2 of the iOS instructions</a>.</p></li>
+<li><p>Download the <a href="https://github.com/tapfortap/PhoneGap/downloads">PhoneGap SDK</a> and look inside the iOS foler
+and add <code>TapForTapPhoneGapPlugin.h</code> and <code>TapForTapPhoneGapPlugin.m</code> to your
 project in the <code>Plugins</code> folder provided by PhoneGap.</p></li>
 <li><p>Put <code>tapfortap.js</code> in your <code>www</code> folder, alongside <code>phonegap-2.x.x.js</code>
 or <code>cordova-2.x.x.js</code>.</p></li>
@@ -263,21 +275,38 @@ to show a new app wall ad.</p>
 <span class="nx">TapForTap</span><span class="p">.</span><span class="nx">showwAppWall</span><span class="p">();</span>
 </pre></div>
 
-<h2>Support</h2>
+<hr><h1></h1>
 
-<p>Things don't always go according to plan. If you hit a snag somewhere and need a
-hand don't hesitate to get in touch with us at
-<a href="mailto:support@tapfortap.com">support@tapfortap.com</a> or on Twitter where we go
-by the swanky handle <a href="https://twitter.com/tapfortap">@tapfortap</a>.</p>
+<h1>Footer</h1>
 
-<h2>License</h2>
+<h2><a href="http://tapfortap.github.com/Documentation/">Back To Documentaion</a></h2>
+
+<h3><em>Support</em></h3>
+
+<p>Things don't always go according to plan. If you hit a snag somewhere and need a hand don't hesitate to get in touch with us at <a href="mailto:support@tapfortap.com">support@tapfortap.com</a> or on Zendesk <a href="https://tapfortap.zendesk.com/anonymous_requests/new">here</a>.</p>
+
+<h3><em>License</em></h3>
 
 <p>Licensed under the terms of the MIT License.</p>
 
 <p>Copyright © 2012 Tap for Tap Promotions Inc.</p>
       </section>
+      <footer>
+        <p>Project maintained by <a href="https://github.com/tapfortap">tapfortap</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></small></p>
+      </footer>
     </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-32413960-4");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
 
-    
   </body>
 </html>
