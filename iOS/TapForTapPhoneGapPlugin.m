@@ -1,9 +1,6 @@
-//
-//  TapForTapPhoneGapPlugin.m
-//
-//  Created by Sami Samhuri on 04/02/12.
+//******************************************************************************
 //  Copyright (c) 2012 Tap for Tap. All rights reserved.
-//
+//******************************************************************************
 
 #import "TapForTapPhoneGapPlugin.h"
 #import "TapForTap.h"

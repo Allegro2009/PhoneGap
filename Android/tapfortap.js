@@ -22,7 +22,7 @@
 
   window.TapForTap = {
 
-    initializeWithApiKey: function(apiKey, successCallback, failureCallback) {
+    initializeWithAPIKey: function(apiKey, successCallback, failureCallback) {
       return cordova.exec(successCallback, failureCallback, 'TapForTap', 'initializeWithApiKey', [apiKey]);
     }
 

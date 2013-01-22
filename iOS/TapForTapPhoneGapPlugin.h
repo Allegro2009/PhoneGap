@@ -1,10 +1,6 @@
-//
-//  TapForTapPhoneGapPlugin.h
-//  TapForTapPhoneGapPlugin
-//
-//  Created by Phil Laird on 2012-11-13.
-//
-//
+//******************************************************************************
+//  Copyright (c) 2012 Tap for Tap. All rights reserved.
+//******************************************************************************
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
