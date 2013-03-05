@@ -1,0 +1,17 @@
+android/gen
+android/bin
+android/build
+android/release
+android/.classpath
+android/.project
+android/package
+android/.settings
+
+ios/build
+ios/release
+ios/TapForTapPhoneGapPlugin.xcodeproj/project.xcworkspace/*
+ios/TapForTapPhoneGapPlugin.xcodeproj/xcuserdata*
+
+update_native_libraries
+repos
+
