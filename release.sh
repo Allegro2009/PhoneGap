@@ -40,9 +40,9 @@ fi
 
 # Zip Android and iOS release
 cd release
-zip TapForTap-PhoneGap-Android-"$VERSION".zip Android
-zip TapForTap-PhoneGap-iOS-"$VERSION".zip iOS
-zip TapForTap-PhoneGap-"$VERSION".zip Android iOS
+zip -r TapForTap-PhoneGap-Android-"$VERSION".zip Android
+zip -r TapForTap-PhoneGap-iOS-"$VERSION".zip iOS
+zip -r TapForTap-PhoneGap-"$VERSION".zip Android iOS
 
 rm -rf Android
 rm -rf iOS
